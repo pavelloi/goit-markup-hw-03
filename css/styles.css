@@ -6,6 +6,8 @@
   --background-color: #2f303a;
   --third-text-color: #000000;
   --second-background-color: #f5f4fa;
+  --first-border-color: #ececec;
+  --second-border-color: #eeeeee;
 }
 
 p,
@@ -23,6 +25,8 @@ ul {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 body {
@@ -52,7 +56,7 @@ body {
   background-color: var(--secondary-title-text);
   padding-top: 24px;
   padding-bottom: 25px;
-  border: 1px solid #ececec;
+  border: 1px solid var(--first-border-color);
 }
 .header-container {
   display: flex;
@@ -96,11 +100,13 @@ body {
   display: flex;
 }
 
-.nav-item {
+.nav-item,
+.contact-item {
   margin-right: 50px;
 }
-.contact-item {
-  margin-left: 50px;
+.nav-item:last-child,
+.contact-item:last-child {
+  margin-right: 0px;
 }
 
 .header-contacts {
@@ -215,7 +221,6 @@ body {
 }
 .work-list {
   display: flex;
-  flex-wrap: wrap;
   list-style: none;
   margin-left: -30px;
 }
@@ -239,7 +244,6 @@ body {
 
 .team-list {
   display: flex;
-  flex-wrap: wrap;
   margin-left: -30px;
 }
 
@@ -310,6 +314,7 @@ body {
 .mail-link:hover {
   color: var(--accent-color);
 }
+
 /* portfolio main */
 .button-title,
 .portfolio-cards {
@@ -366,7 +371,7 @@ body {
   margin-top: 30px;
   flex-basis: calc((100% - 90px) / 3);
   background: var(--secondary-title-text);
-  /* border: 1px solid #eeeeee; */
+  border: 1px solid var(--second-border-color);
 }
 
 .portfolio-card-title {
