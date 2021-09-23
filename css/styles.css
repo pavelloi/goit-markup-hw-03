@@ -1,0 +1,205 @@
+:root {
+  --accent-color: #2196f3;
+  --primary-title-text: #212121;
+  --primary-text-color: #757575;
+  --secondary-title-text: #ffffff;
+  --background-color: #2f303a;
+  --third-text-color: #000000;
+  --second-background-color: #f5f4fa;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: var(--secondary-title-text);
+  color: var(--primary-text-color);
+}
+
+/* header */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.second-logo {
+  color: var(--third-text-color);
+}
+.white-logo {
+  color: var(--secondary-title-text);
+}
+.nav-item-link.current {
+  color: var(--accent-color);
+}
+
+.nav-items,
+.contact-items,
+.advantages-list,
+.address-list {
+  list-style: none;
+}
+.nav-item-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-title-text);
+  text-decoration: none;
+}
+
+.nav-item-link:focus,
+.nav-item-link:hover,
+.contact-item-link:hover,
+.contact-item-link:focus {
+  color: var(--accent-color);
+}
+
+.contact-item-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+/* hero */
+.hero {
+  background-color: var(--background-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--secondary-title-text);
+}
+.btn {
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--secondary-title-text);
+  cursor: pointer;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+/* advantages */
+.advantages-item {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-title-text);
+}
+.advantages-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+/* what we really do */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--primary-title-text);
+}
+.work-list,
+.team-cards {
+  list-style: none;
+}
+/* our team */
+.section-work {
+  background-color: var(--second-background-color);
+}
+.employee-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--primary-title-text);
+}
+.employee-position {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+/* contact us */
+.footer {
+  background-color: var(--background-color);
+  list-style: none;
+}
+.address-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-text);
+  text-decoration: none;
+}
+.tel-link,
+.mail-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.address-link:focus,
+.address-link:hover,
+.tel-link:focus,
+.tel-link:hover,
+.mail-link:focus,
+.mail-link:hover {
+  color: var(--accent-color);
+}
+/* portfolio main */
+.button-title,
+.portfolio-cards {
+  list-style: none;
+}
+.button-item {
+  background-color: var(--second-background-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-title-text);
+  cursor: pointer;
+  border: none;
+}
+.button-item.current {
+  background-color: var(--accent-color);
+  color: var(--secondary-title-text);
+}
+
+.button-item:hover,
+.button-item:focus {
+  background-color: var(--accent-color);
+  color: var(--secondary-title-text);
+}
+.portfolio-card-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-title-text);
+}
+.portfolio-card-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
