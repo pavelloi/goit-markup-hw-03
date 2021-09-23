@@ -166,7 +166,7 @@ body {
 /* advantages */
 
 .section {
-  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .advantages-container,
@@ -175,13 +175,17 @@ body {
 }
 
 .advantages-list {
+  padding-top: 94px;
   display: flex;
 }
 
 .advantages-items {
-  margin-left: 30px;
+  min-width: 270px;
+  margin-right: 30px;
 }
+
 .advantages-item {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -222,8 +226,7 @@ body {
   list-style: none;
 }
 /* our team */
-
-.team-container {
+.team-section {
   background-color: var(--second-background-color);
 }
 .cards-title {
@@ -239,10 +242,16 @@ body {
 
 .team-cards {
   margin-left: 30px;
-  flex-basis: (100% / 3 - 30px);
+  flex-basis: (100% / 4 - 30px);
+  background: var(--secondary-title-text);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .employee-name {
+  margin-top: 30px;
+  text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -250,6 +259,9 @@ body {
   color: var(--primary-title-text);
 }
 .employee-position {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: center;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -259,6 +271,15 @@ body {
 .footer {
   background-color: var(--background-color);
   list-style: none;
+  padding: 60px 0;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 20px;
+}
+.address-items:not(:last-child) {
+  margin-bottom: 9px;
 }
 .address-link {
   font-style: normal;
@@ -270,6 +291,7 @@ body {
 }
 .tel-link,
 .mail-link {
+  margin-bottom: 9px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
