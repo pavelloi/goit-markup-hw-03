@@ -285,9 +285,13 @@ body {
   display: block;
   margin-bottom: 20px;
 }
-.address-items:not(:last-child) {
+.address-items {
   margin-bottom: 9px;
 }
+.address-items:last-child {
+  margin-bottom: 0;
+}
+
 .address-link {
   font-style: normal;
   font-size: 14px;
@@ -298,7 +302,6 @@ body {
 }
 .tel-link,
 .mail-link {
-  margin-bottom: 9px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
