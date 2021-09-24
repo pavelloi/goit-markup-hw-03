@@ -116,6 +116,8 @@ body {
 }
 
 .nav-item-link {
+  padding-top: 24px;
+  padding-bottom: 25px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -132,6 +134,8 @@ body {
 }
 
 .contact-item-link {
+  padding-top: 24px;
+  padding-bottom: 25px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -175,6 +179,7 @@ body {
 /* advantages */
 
 .section {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -184,7 +189,7 @@ body {
 }
 
 .advantages-list {
-  padding-top: 94px;
+  margin-left: -30px;
   display: flex;
 }
 
@@ -209,6 +214,10 @@ body {
   color: var(--primary-text-color);
 }
 /* what we really do */
+
+.section-work {
+  padding-bottom: 94px;
+}
 
 .section-title {
   text-align: center;
@@ -238,7 +247,6 @@ body {
   background-color: var(--second-background-color);
 }
 .cards-title {
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -255,9 +263,11 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+.flex-element {
+  margin: 30px 0;
+}
 
 .employee-name {
-  margin-top: 30px;
   text-align: center;
   font-weight: 500;
   font-size: 16px;
@@ -266,8 +276,7 @@ body {
   color: var(--primary-title-text);
 }
 .employee-position {
-  margin-top: 10px;
-  margin-bottom: 30px;
+  padding-top: 10px;
   text-align: center;
   font-size: 16px;
   line-height: 1.18;
@@ -324,17 +333,17 @@ body {
   list-style: none;
 }
 
-.button-container {
-  margin-top: 94px;
-  margin-bottom: 50px;
-}
 .button-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .button-title {
   margin-right: 8px;
+}
+.button-title:last-child {
+  margin-right: 0;
 }
 
 .button-item {
@@ -377,9 +386,11 @@ body {
   border: 1px solid var(--second-border-color);
 }
 
+.flex-elements {
+  margin: 20px 0 20px 24px;
+}
+
 .portfolio-card-title {
-  margin-top: 20px;
-  margin-left: 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -387,9 +398,7 @@ body {
   color: var(--primary-title-text);
 }
 .portfolio-card-description {
-  margin-top: 4px;
-  margin-left: 24px;
-  margin-bottom: 20px;
+  padding-top: 4px;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
