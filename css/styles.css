@@ -54,8 +54,6 @@ body {
 
 .header {
   background-color: var(--secondary-title-text);
-  padding-top: 24px;
-  padding-bottom: 25px;
   border: 1px solid var(--first-border-color);
 }
 .header-container {
@@ -116,8 +114,9 @@ body {
 }
 
 .nav-item-link {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -134,8 +133,9 @@ body {
 }
 
 .contact-item-link {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -383,11 +383,13 @@ body {
   margin-top: 30px;
   flex-basis: calc((100% - 90px) / 3);
   background: var(--secondary-title-text);
-  border: 1px solid var(--second-border-color);
 }
 
 .flex-elements {
-  margin: 20px 0 20px 24px;
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--second-border-color);
+  border-left: 1px solid var(--second-border-color);
+  border-right: 1px solid var(--second-border-color);
 }
 
 .portfolio-card-title {
@@ -398,7 +400,7 @@ body {
   color: var(--primary-title-text);
 }
 .portfolio-card-description {
-  padding-top: 4px;
+  margin-top: 4px;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
