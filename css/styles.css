@@ -68,6 +68,7 @@ body {
 
 .logo {
   margin-right: 93px;
+  padding: 24px 0;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -264,7 +265,7 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 .flex-element {
-  margin: 30px 0;
+  padding: 30px 0;
 }
 
 .employee-name {
@@ -276,7 +277,7 @@ body {
   color: var(--primary-title-text);
 }
 .employee-position {
-  padding-top: 10px;
+  margin-top: 10px;
   text-align: center;
   font-size: 16px;
   line-height: 1.18;
